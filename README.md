@@ -27,3 +27,4 @@ Requirements to get it to work as is:
 Tips:
 
 - Make it executable! (chmod +x locationofscript)
+- You may have to modify the [shebang] (https://en.wikipedia.org/wiki/Shebang_(Unix))
