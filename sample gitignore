@@ -1,0 +1,114 @@
+## -----------------------------------------------------------------
+##
+## .gitignore for Hermes Development WordPress projects
+## based on:
+##
+## .gitignore for WordPress2          ##
+## Bare Minimum Git                   ##
+## http://ironco.de/bare-minimum-git/ ##
+## ver 20150227                       ##
+##
+## This file is tailored for a WordPress project
+## using the default directory structure
+##
+## -----------------------------------------------------------------
+
+# ignore everything in the root except the "wp-content" directory.
+/*
+!wp-content/
+
+# ignore all files starting with .
+.*
+
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# track .editorconfig file (i.e. do NOT ignore it)
+!.editorconfig
+
+# track readme.md in the root (i.e. do NOT ignore it)
+!readme.md
+
+# ignore all files that start with ~
+~*
+
+# ignore OS generated files and directories
+ehthumbs.db
+Thumbs.db
+Network Trash Folder
+Temporary Items
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ignore SublimeText files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+sftp-config.json
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+bh_unicode_properties.cache
+GitHub.sublime-settings
+
+# ignore icons
+Icon*
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore random other crap
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins" directory
+# "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/themes/
+
+# ignore specific themes
+wp-content/themes/genesis/
+wp-content/themes/startertheme-v1.0.0/assets/scss/mixins/
+wp-content/themes/*/README*
+wp-content/themes/*/screenshot.png
+
+# ignore node/npm/gulp dependency directories and debug file
+node_modules/
+wp-content/themes/*/build/
+npm-debug*
