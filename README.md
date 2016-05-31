@@ -14,17 +14,19 @@ WordPress installation bash script for Laravel Valet
 Requirements to get it to work as is:
 
 - Mac OS X
-- Laravel Valet (requires Homebrew, PHP, MySQL/MariaDB, Composer)
+- [Laravel Valet] (https://laravel.com/docs/5.2/valet) (requires Homebrew, PHP, MySQL/MariaDB, Composer)
+- [WP-CLI] (https://wp-cli.org/)
 - Sass
 - node.js, npm, gulp
-- Genesis framework
+- [Genesis framework] (http://www.studiopress.com/)
 - git
 - a .gitignore file (sample provided)
-- Bitbucket account
+- [Bitbucket] (https://bitbucket.org/) account
 - Chrome
-- Atom
+- [Atom] (https://atom.io/)
 
 Tips:
 
 - Make it executable! (chmod +x locationofscript)
 - You may have to modify the [shebang] (https://en.wikipedia.org/wiki/Shebang_(Unix))
+- "$ valet park" on the parent directory
