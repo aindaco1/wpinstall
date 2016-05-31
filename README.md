@@ -1,5 +1,5 @@
 # wpinstall
-WordPress installation bash script for Laravel Valet
+WordPress installation bash script for Laravel Valet - based on [Christopher Geary] (https://www.ltconsulting.co.uk/automated-wordpress-installation-with-bash-wp-cli/)'s script
 
 - Creates local WordPress installation for Laravel Valet
 - Hardens core (a bit)
